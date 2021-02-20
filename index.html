@@ -31,6 +31,99 @@
     <link href="//fonts.googleapis.com/css?family=Josefin+Sans:100,100i,300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
     <link href="//fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800" rel="stylesheet">
     <style type="text/css">
+    body
+{
+    margin:0px;
+    padding: 0px;
+    font-family:poppins;
+
+}
+header
+{
+    overflow:hidden;
+    height:100vh;
+}
+.vid-bg
+{
+    position:absolute;
+    right:0;
+    bottom:0;
+    min-height:100% ;
+    min-width:100%;
+}
+.nav-area
+{
+    background:rgba(0,0,0,0.7);
+    height:110px;
+    position: absolute;
+    width:100%;
+}
+.logo
+{
+ margin:0 50px;
+ height: 110px;
+ float: left;
+ color: #fff;
+ font-size:35px;
+ text-transform: capitalize;
+ letter-spacing:2px;
+}
+.menu-area
+{
+    float:right;
+    list-style:none;
+    margin:50px;
+
+}
+.menu-area li
+{
+    display:inline-block;
+    margin:0 5px;
+}
+.menu-area li a
+{
+    text-decoration: none;
+    color:#fff;
+    padding: 50px 20px;
+    letter-spacing:2px;
+}
+.menu-area li a:hover
+{
+    color:red;
+}
+.banner-text
+{
+position: absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+}
+.banner-text h2
+{
+    color: #fff;
+    font-size:55px;
+    margin:0;
+}
+.banner-text p
+{
+    color: #fff;
+    font-size: 18px;
+    margin:0;
+    font-weight: bold;
+}
+.btn
+{
+    display: inline-block;
+    margin-top: 5%;
+    background:transparent;
+    border: 0;
+    font-size: 20px;
+    text-transform: uppercase;
+    border: 3px solid #fff;
+    padding:10px 25px;
+    color:#fff;
+    border-radius:25px;
+}
         .team{
         margin: 0;
         padding: 0;
@@ -132,12 +225,31 @@
 </head>
 
 <body>
-    <div class="mian-content mb-5">
-        <!-- main image slider container -->
+        <header>
+            <video src="lunavideo.mp4" class="vid-bg" autoplay loop muted>
+            </video>
+            <div class="nav-area">
+                <div class="logo"><img src="images/logo.png" style="width: 180px;"></div>
+                <ul class="menu-area">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="purchase.html">Purchase</a></li>
+                    <li><a href="fff.html">Charter</a></li>
+                    <li><a href="headCont.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="banner-text">
+                <h2>luna_catamarans</h2>
+                <p>we are here to help you 24*7</p>
+                <a href="contact.html" class="btn" target="_blank">Contact us</a>
+            </div>
+        </header>
+   
+   <!--<div class="mian-content mb-5">
+        
         <div class="slide-window">
            
         </div>
-        <!-- main image slider container -->
+        <!-- main image slider container
 
         <div class="header-top-w3layouts">
             <div class="container">
@@ -198,18 +310,32 @@
             </div>
         </div>
 
-    </div><br><br><br>
+    </div><br><br><br>-->
     <!-- end of main image slider container -->
     <!-- banner-text -->
     <!-- ab -->
     <!--Starting video-->
-    <div class="container mt-5">
+    <!--<div class="container mt-5">
         <div class="embed-responsive embed-responsive-16by9">
           <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/FZkh6_n1Aoc?autoplay=1&mute=1&playlist=FZkh6_n1Aoc&loop=1&controls=0"></iframe>
         </div>
-    </div>
+    </div>-->
+   <!---- <header>
+        <div class="overlay"></div>
+        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+          <source src="lunavideo.mp4" type="video/mp4">
+        </video>
+        <div class="container h-100">
+          <div class="d-flex h-100 text-center align-items-center">
+            <div class="w-100 text-white">
+              <h1 class="display-3">Video Header</h1>
+              <p class="lead mb-0">With HTML5 Video and Bootstrap 4</p>
+            </div>
+          </div>
+        </div>
+      </header>--!>
+      
     
-
     <center><h1 class="mt-5">Featured Catamarans</h1></center>
     <div class="container mt-5">
         <div class="row">
@@ -219,7 +345,7 @@
                     <div class="card-body">
                       <h4 class="card-title">LUNA 48er POWER Cat</h4>
                      
-                      <a href="#" class="btn btn-primary stretched-link">Price on Request</a>
+                      <a href="Cont.html" class="btn btn-primary stretched-link" target="_blank">Price on Request</a>
                     </div>
                 </div>
             </div>
@@ -229,7 +355,7 @@
                     <div class="card-body">
                       <h4 class="card-title">LUNA Sailing 47er</h4>
                      
-                      <a href="#" class="btn btn-primary stretched-link">Price on Request</a>
+                      <a href="CONT_1.HTML" class="btn btn-primary stretched-link" target="_blank">Price on Request</a>
                     </div>
                 </div>
             </div>
@@ -241,7 +367,7 @@
                     <div class="card-body">
                       <h4 class="card-title">LUNA 47er POWER Cat</h4>
                      
-                      <a href="#" class="btn btn-primary stretched-link">Price on Request</a>
+                      <a href="Cont2.html" class="btn btn-primary stretched-link" target="_blank">Price on Request</a>
                     </div>
                 </div>
             </div>
@@ -251,7 +377,7 @@
                     <div class="card-body">
                       <h4 class="card-title">LUNA Sailing 49er</h4>
                      
-                      <a href="#" class="btn btn-primary stretched-link">Price on Request</a>
+                      <a href="Cont3.html"" class="btn btn-primary stretched-link" target="_blank">Price on Request</a>
                     </div>
                 </div>
             </div>
