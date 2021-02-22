@@ -1,25 +1,27 @@
-<head>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  <link href="css/newcss.css" rel="stylesheet" type="text/css">
-    <link href="css/bootstrap.css" rel='stylesheet' type='text/css'/>
-    <link href="newStyle.css" rel='stylesheet' type='text/css'/>
-    <link href="css/style.css" rel='stylesheet' type='text/css'/>
-</head>
-<body>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-6">
-               <img src="images/hello.jpeg">
-            </div>
-           
-            <div class="col-6 text-right" style="background-image: url('images/bn.jpeg');">
-                <div class="about-right-w3layouts">
-                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/vnNiWp1aLY8?autoplay=1&mute=1&playlist=vnNiWp1aLY8&loop=1"></iframe>
-                </div>
-            </div>
-        </div>
+<style>
+    #thumbwrap {
+	position:relative;
+	margin:75px auto;
+	width:252px; height:252px;
+}
+.thumb img { 
+	border:1px solid #000;
+	margin:3px;
+	float:left;
+}
+.thumb span { 
+	position:absolute;
+	visibility:hidden;
+}
+.thumb:hover, .thumb:hover span { 
+	visibility:visible;
+	top:0; left:250px; 
+	z-index:1;
+}
+
+</style>
+<div id="thumbwrap">
+    <a class="thumb" href="#"><img src="images/1.jpeg" alt=""><span><img src="images/jamie1big.jpg" alt=""></span></a>
+    
     </div>
-</body>
+    
