@@ -53,7 +53,7 @@ header
 }
 .nav-area
 {
-    background:rgba(0,0,0,0.7);
+    background:rgba(36,37,42,1);
     height:110px;
     position: absolute;
     width:100%;
@@ -221,13 +221,27 @@ transform:translate(-50%,-50%);
       display: block;
       margin-top: 5px;
        } 
+       * {padding:0;margin:0;box-sizing:border-box;}
+#video {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	height: 0;
+}
+#video iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
     </style>
 </head>
 
 <body>
         <header>
-            <video src="lunavideo.mp4" class="vid-bg" autoplay loop muted>
-            </video>
+            <div id="video">
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/FZkh6_n1Aoc?autoplay=1&mute=1&playlist=FZkh6_n1Aoc&loop=1&controls=0" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+            </div>
             <div class="nav-area">
                 <div class="logo"><img src="images/logo.png" style="width: 180px;"></div>
                 <ul class="menu-area">
@@ -238,7 +252,7 @@ transform:translate(-50%,-50%);
                 </ul>
             </div>
             <div class="banner-text">
-                <h2>luna_catamarans</h2>
+                <h2>Luna Catamarans</h2>
                 <p>we are here to help you 24*7</p>
                 <a href="contact.html" class="btn" id="btn-2"target="_blank">Contact us</a>
             </div>
