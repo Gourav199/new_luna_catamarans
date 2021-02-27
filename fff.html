@@ -1,47 +1,156 @@
 <!DOCTYPE html>
 <html lang="zxx">
 
-<head>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  <title>Shipment Transport Category Bootstrap responsive Web Template | Home :: w3layouts</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta charset="utf-8">
-  <meta name="keywords" content="Shipment a Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
-  Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
-  <script>
-      addEventListener("load", function() {
-          setTimeout(hideURLbar, 0);
-      }, false);
-
-      function hideURLbar() {
-          window.scrollTo(0, 1);
-      }
-  </script>
-  <link href="css/newcss.css" rel="stylesheet" type="text/css">
-  <link href="css/bootstrap.css" rel='stylesheet' type='text/css'/>
-  <link href="newStyle.css" rel='stylesheet' type='text/css'/>
-  <link href="css/style.css" rel='stylesheet' type='text/css'/>
-  <link rel="stylesheet" href="css/owl.theme.css" type="text/css" media="all">
-  <link rel="stylesheet" href="css/owl.carousel.css" type="text/css" media="screen" property="" />
-  <link href="css/prettyPhoto.css" rel="stylesheet" type="text/css"/>
-  <link rel="stylesheet" href="css/minimal-slider.css" type="text/css" media="all"/>
-  <link href="css/fontawesome-all.css" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="web.css">
-  <link href="//fonts.googleapis.com/css?family=Josefin+Sans:100,100i,300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
-  <link href="//fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800" rel="stylesheet">
-  <style>
-     
-        
-  </style>
-
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <title>Shipment Transport Category Bootstrap responsive Web Template | Home :: w3layouts</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
+        <meta name="keywords" content="Shipment a Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+        Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+        <script>
+            addEventListener("load", function() {
+                setTimeout(hideURLbar, 0);
+            }, false);
     
-</head>
+            function hideURLbar() {
+                window.scrollTo(0, 1);
+            }
+        </script>
+        <link href="css/newcss.css" rel="stylesheet" type="text/css">
+        <link href="css/bootstrap.css" rel='stylesheet' type='text/css'/>
+        <link href="newStyle.css" rel='stylesheet' type='text/css'/>
+        <link href="css/style.css" rel='stylesheet' type='text/css'/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="css/owl.theme.css" type="text/css" media="all">
+        <link rel="stylesheet" href="css/owl.carousel.css" type="text/css" media="screen" property="" />
+        <link href="css/prettyPhoto.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="css/minimal-slider.css" type="text/css" media="all"/>
+        <link href="css/fontawesome-all.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="web.css">
+        <link href="//fonts.googleapis.com/css?family=Josefin+Sans:100,100i,300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
+        <link href="//fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800" rel="stylesheet">
+        <style type="text/css">
+            .team{
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content:center;
+            align-items: center;
+            min-height: 100vh;
+            font-family: sans-serif;
+          }
+          .box{
+            width: 1200px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            grid-gap: 15px;
+            margin: 0 auto;
+          }
+          .card{
+            position: relative;
+            width: 300px;
+            height: 350px;
+            background: #fff;
+            margin: 0 auto;
+            border-radius: 4px;
+            box-shadow:0 2px 10px rgba(0,0,0,.2);
+          }
+          .card:before,
+          .card:after
+          {
+            content:"";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border-radius: 4px;
+            background: #fff;
+            transition: 0.5s;
+            z-index:-1;
+          }
+          .card:hover:before{
+          transform: rotate(20deg);
+          box-shadow: 0 2px 20px rgba(0,0,0,.2);
+          }
+          .card:hover:after{
+          transform: rotate(10deg);
+          box-shadow: 0 2px 20px rgba(0,0,0,.2);
+          }
+          .card .imgBx{
+          position: absolute;
+          top: 10px;
+          left: 10px;
+          bottom: 10px;
+          right: 10px;
+          background: #222;
+          transition: 0.5s;
+          z-index: 1;
+          }
+          
+          .card:hover .imgBx
+          {
+            bottom: 80px;
+          }
+    
+          .card .imgBx img{
+              position: absolute;
+              top: 0;
+              left: 0;
+              width: 100%;
+              height: 100%;
+              object-fit: cover;
+          }
+    
+          .card .details{
+              position: absolute;
+              left: 10px;
+              right: 10px;
+              bottom: 10px;
+              height: 60px;
+              text-align: center;
+          }
+    
+          .card .details h2{
+           margin: 0;
+           padding: 0;
+           font-weight: 600;
+           font-size: 20px;
+           color: #777;
+           text-transform: uppercase;
+          } 
+    
+          .card .details h2 span{
+          font-weight: 500;
+          font-size: 16px;
+          color: #f38695;
+          display: block;
+          margin-top: 5px;
+           } 
+.video {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	height:0;
+
+	
+}
+.video iframe {
+	height:100%;
+	width:100%;
+	position:absolute;
+	top:0;
+	bottom:0;
+}
+        </style>
+    </head>
 
 <body>
+   
     <div class="mian-content">
         <!-- main image slider container -->
         <div class="slide-window">
@@ -105,14 +214,13 @@
                             <div class="col-lg-7 top-content-right">
                                 <div class="row">
                                     <div class="col-md-6 callnumber text-left">
-                                        <h6>Call Us : <span>1234567890</span></h6>
+                                        <h6>Call Us : <span>+351 915 828 245</span></h6>
                                     </div>
                                     <div class="col-md-6 top-social-icons p-0">
                                         <ul class="social-icons d-flex justify-content-end">
-                                            <li class="mr-1"><a href="#"><span class="fab fa-facebook-f"></span></a></li>
-                                            <li class="mx-1"><a href="#"><span class="fab fa-twitter"></span></a></li>
-                                            <li class="mx-1"><a href="#"><span class="fab fa-google-plus-g"></span></a></li>
-                                            <li class="mx-1"><a href="#"><span class="fab fa-linkedin-in"></span></a></li>
+                                            <!-- <li class="mr-1"><a href="https://www.facebook.com/LunaCatamarans/"><span class="fab fa-facebook-f"></span></a></li>
+                                            
+                                            <li class="mx-1"><a href="#"><span class="fa fa-youtube"></span></a></li> -->
                                         </ul>
                                     </div>
                                 </div>
@@ -137,9 +245,9 @@
 
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav ml-lg-auto text-right">
-                                <li class="nav-item active">
+                                <li class="nav-item ">
                                     <a class="nav-link" href="index.html">Home
-                                        <span class="sr-only">(current)</span>
+                                        
                                     </a>
                                 </li>
                                 <!-- <li class="nav-item">
@@ -155,7 +263,8 @@
                                     <a class="nav-link" href="price.html">Team</a>
                                 </li> -->
                                 <li class="nav-item">
-                                    <a class="nav-link" href="fff.html">Charter</a>
+                                    <a class="nav-link active" href="fff.html">Charter</a>
+                                    <span class="sr-only">(current)</span>
                                 </li>
                                 <!-- <li class="nav-item">
                                     <a class="nav-link" href="price.html">Management</a>
@@ -180,7 +289,7 @@
     <!--destinations-->
        
 <div class="container-fluid mt-5">
-    <center><i><h1 style="color:#31bae2;">Canary Islands</h1></i></center>
+    
     <div class="row mt-5"  style="background-image: url('images/bn.jpeg');">
         <div class="col-6 zoomimg text-left pl-0">
             <img src="images/hello.jpeg" style="width: 800px;height: 476px;">
@@ -191,10 +300,10 @@
             </div>
         </div>
     </div>
-    <center><a href="Cont.html" class="btn  stretched-link mt-1" target="_blank" style="background-color: #31bae2;color: white;">Book Now</a></center>
+    <center><a href="booknow.html" class="btn btn-primary mt-1" target="_blank" style="color: white;">Book Now</a></center>
 </div>
 <div class="container-fluid mt-5">
-    <center><i><h1 style="color:#31bae2;">Madeira  </h1></i></center>    
+    
   <div class="row mt-5" style="background-image: url('images/bn.jpeg');">
       <div class="col-6  text-left mt-4 pl-0">
           <div class="about-right-w3layouts mt-5">
@@ -205,11 +314,11 @@
          <img src="images/madeira.jpeg" style="width: 600px;height: 476px;">
       </div>
   </div>
-  <center><a href="booknow.html" class="btn  stretched-link mt-1" target="_blank" style="background-color: #31bae2;color: white;">Book Now</a></center>
+  <center><a href="booknow-2.html" class="btn btn-primary mt-1" target="_blank" style="color: white;">Book Now</a></center>
 </div>
 <div class="container-fluid mt-5">
   
-    <center><i><h1 style="color:#31bae2;">Algarve Morocco</h1></i></center>
+    
   <div class="row mt-5" style="background-image: url('images/bn.jpeg');">
       <div class="col-6 zoomimg text-left pl-0" >
          <img src="images/algarve-moroco.jpeg" style="width: 600px;height: 476px;">
@@ -221,10 +330,10 @@
           </div>
       </div>
   </div>
-  <center><a href="booknow.html" class="btn  stretched-link mt-1" target="_blank" style="background-color: #31bae2;color: white;">Book Now</a></center>
+  <center><a href="booknow-3.html" class="btn btn-primary mt-1" target="_blank" style="color: white;">Book Now</a></center>
 </div>
 <div class="container-fluid mt-5">
-    <center><i><h1 style="color:#31bae2;">Madeira Canary Islands </h1></i></center>  
+    
   <div class="row mt-5" style="background-image: url('images/bn.jpeg');">
       <div class="col-6  text-left mt-4 pl-0">
           <div class="about-right-w3layouts mt-5">
@@ -235,10 +344,10 @@
          <img src="images/madeira-canary.jpeg" style="width: 600px;height: 476px;">
       </div>
   </div>
-  <center><a href="booknow.html" class="btn  stretched-link mt-1" target="_blank" style="background-color: #31bae2;color: white;">Book Now</a></center>
+  <center><a href="booknow-4.html" class="btn btn-primary mt-1" target="_blank" style="color: white;">Book Now</a></center>
 </div>
 <div class="container-fluid mt-5">
-    <center><i><h1 style="color:#31bae2;">Cape Vert</h1></i></center>
+   
   <div class="row mt-5" style="background-image: url('images/bn.jpeg');">
       <div class="col-6 zoomimg text-left pl-0">
          <img src="images/capevert.jpeg" style="width: 600px;height: 476px;"> 
@@ -250,10 +359,10 @@
           </div>
       </div>
   </div>
-  <center><a href="booknow.html" class="btn  stretched-link mt-1" target="_blank" style="background-color: #31bae2;color: white;">Book Now</a></center>
+  <center><a href="booknow-5.html" class="btn btn-primary mt-1" target="_blank" style="color: white;">Book Now</a></center>
 </div>
 <div class="container-fluid mt-5">
-    <center><i><h1 style="color:#31bae2;">Canary Islands Morocco</h1></i></center>  
+   
   <div class="row mt-5" style="background-image: url('images/bn.jpeg');">
       <div class="col-6 text-left mt-4 pl-0" >
           <div class="about-right-w3layouts mt-5">
@@ -264,10 +373,10 @@
          <img src="images/canary-morocoo.jpeg" style="width: 600px;height: 476px;">
       </div>
   </div>
-  <center><a href="booknow.html" class="btn  stretched-link mt-1" target="_blank" style="background-color: #31bae2;color: white;">Book Now</a></center>
+  <center><a href="booknow-6.html" class="btn btn-primary mt-1" target="_blank" style="color: white;">Book Now</a></center>
 </div>
 <div class="container-fluid mt-5">
-    <center><i><h1 style="color:#31bae2;">Azores</h1></i></center>
+   
   <div class="row mt-5" style="background-image: url('images/bn.jpeg');">
       <div class="col-6 zoomimg text-left pl-0">
          <img src="images/azores.jpeg" style="width: 600px;height: 476px;">
@@ -275,12 +384,14 @@
      
       <div class="col-6 mt-4 pl-5 pr-0 text-right pr-0">
           <div class="about-right-w3layouts mt-5">
-              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/rvoaukA3eAQ?autoplay=1&mute=1&playlist=rvoaukA3eAQ&loop=1"></iframe>
-          </div>
+                    <iframe class="embed-responsive-item " width="100%" height="100%" src="https://www.youtube.com/embed/rvoaukA3eAQ?autoplay=1&mute=1&playlist=rvoaukA3eAQ&loop=1&controls=0"></iframe>
+                </div>
+            </div>
       </div>
   </div>
-  <center><a href="booknow.html" class="btn  stretched-link mt-1" target="_blank" style="background-color: #31bae2;color: white;">Book Now</a></center>
+  <center><a href="booknow-7.html" class="btn   btn-primary  mt-1" target="_blank">Book Now</a></center>
 </div>
+<!-- footer -->
        <footer class="w3l-footer-66 mt-5">
     <section class="footer-inner-main">
       <div class="footer-hny-grids py-5">
@@ -325,7 +436,7 @@
                    </div></p>
                   <div class="columns-2">
                     <ul class="social">
-                      <li><a href="#facebook"><span class="fa fa-facebook" aria-hidden="true"></span></a>
+                      <!-- <li><a href="#facebook"><span class="fa fa-facebook" aria-hidden="true"></span></a>
                       </li>
                       <li><a href="#linkedin"><span class="fa fa-linkedin" aria-hidden="true"></span></a>
                       </li>
@@ -335,7 +446,7 @@
                       </li>
                       <li><a href="#github"><span class="fa fa-youtube" aria-hidden="true"></span></a>
                       </li>
-                    </ul>
+                    </ul> -->
                   </div>
                 </div>
                 <div class="col-lg-4 col-md-6 sub-one-left">
@@ -347,9 +458,9 @@
                       </li>
                       <li><a href="services.html"><span class="fa fa-angle-double-right mr-2"></span> contact us</a>
                       </li>
-                      <li><a href="#"><span class="fa fa-angle-double-right mr-2"></span> Youtube</a>
+                      <li><a href="https://www.youtube.com/watch?v=FZkh6_n1Aoc"><span class="fa fa-angle-double-right mr-2"></span> Youtube</a>
                       </li>
-                      <li><a href="#"><span class="fa fa-angle-double-right mr-2"></span>Facebook</a>
+                      <li><a href="https://www.facebook.com/LunaCatamarans/"><span class="fa fa-angle-double-right mr-2"></span>Facebook</a>
                       </li>
                     </ul>
                    </div>

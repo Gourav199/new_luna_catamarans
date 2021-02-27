@@ -17891,6 +17891,14 @@ ul.breadcrumbs-custom-path li a {
     margin-left: 0;
   }
 }
+@media (min-width: 1920px){
+.pb-md-5, .py-md-5 {
+    padding-bottom: 3rem !important;
+    padding-left: 4.6rem;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;}
 
+}
 /*--//footer--*/
 /*sourceMappingURL=style-freedom.css.map */
