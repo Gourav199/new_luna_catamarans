@@ -17900,5 +17900,24 @@ ul.breadcrumbs-custom-path li a {
     overflow-y: hidden;}
 
 }
+.abcde {
+  width: 600px;
+  height:476px;}
+@media (min-width: 1920px){
+  .abcde {
+    width: 800px;
+    height:600px;
+    text-align: center;}
+
+}
+@media (min-width: 1920px){
+  .video-height {
+    padding-top: 50px;}
+
+}
+
+
+
+
 /*--//footer--*/
 /*sourceMappingURL=style-freedom.css.map */
