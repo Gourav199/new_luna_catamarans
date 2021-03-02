@@ -17905,15 +17905,17 @@ ul.breadcrumbs-custom-path li a {
   height:476px;}
 @media (min-width: 1920px){
   .abcde {
-    width: 800px;
+    width: 950px;
     height:600px;
     text-align: center;}
 
 }
 @media (min-width: 1920px){
   .video-height {
-    padding-top: 50px;}
-
+    width: 650px;
+    padding-top: 50px;
+    padding-left: 100px;}
+    
 }
 
 
