@@ -196,9 +196,26 @@ li.nav-item {
 }
 
 /*--/banner-info--*/
-
+.slide1 {
+    background: url(../images/kl.jpg) no-repeat center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    height: 50vw;
+}
 .slide {
     background: url(../images/1.jpeg) no-repeat center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    height: 50vw;
+}
+.slide1 {
+    background: url(../images/kl.jpg) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
