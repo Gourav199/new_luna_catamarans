@@ -3,7 +3,7 @@
 <html lang="zxx">
 
 <head>
-    <title>Luna Charter</title>
+    <title>Shipment Transport Category Bootstrap responsive Web Template | Home :: w3layouts</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
@@ -30,6 +30,19 @@
     <link rel="stylesheet" type="text/css" href="web.css">
     <link href="//fonts.googleapis.com/css?family=Josefin+Sans:100,100i,300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
     <link href="//fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800" rel="stylesheet">
+    <!--new folder-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+   
+    
+    <!-- Bootstrap core CSS -->
+    <link href="new/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="new/assets/css/fontawesome.css">
+    <link rel="stylesheet" href="new/assets/css/templatemo-grad-school.css">
+    <link rel="stylesheet" href="new/assets/css/owl.css">
+    <link rel="stylesheet" href="new/assets/css/lightbox.css">
     <style type="text/css">
     body
 {
@@ -38,92 +51,14 @@
     font-family:poppins;
 
 }
-header
-{
-    overflow:hidden;
-    height:100vh;
-}
-.vid-bg
-{
-    position:absolute;
-    right:0;
-    bottom:0;
-    min-height:100% ;
-    min-width:100%;
-}
-.nav-area
-{
-    background:rgba(36,37,42,1);
-    height:110px;
-    position: absolute;
-    width:100%;
-}
 .logo
 {
- margin:0 50px;
- height: 110px;
+ 
  float: left;
- color: #fff;
- font-size:35px;
- text-transform: capitalize;
- letter-spacing:2px;
+ 
+ 
 }
-.menu-area
-{
-    float:right;
-    list-style:none;
-    margin:50px;
 
-}
-.menu-area li
-{
-    display:inline-block;
-    margin:0 5px;
-}
-.menu-area li a
-{
-    text-decoration: none;
-    color:#fff;
-    padding: 50px 20px;
-    letter-spacing:2px;
-}
-.menu-area li a:hover
-{
-    color:red;
-}
-.banner-text
-{
-position: absolute;
-top:50%;
-left:50%;
-transform:translate(-50%,-50%);
-}
-.banner-text h2
-{
-    color: #fff;
-    font-size:55px;
-    margin:0;
-}
-.banner-text p
-{
-    color: #fff;
-    font-size: 18px;
-    margin:0;
-    font-weight: bold;
-}
-#btn-2
-{
-    display: inline-block;
-    margin-top: 5%;
-    background:transparent;
-    border: 0;
-    font-size: 20px;
-    text-transform: uppercase;
-    border: 3px solid #fff;
-    padding:10px 25px;
-    color:#fff;
-    border-radius:25px;
-}
         .team{
         margin: 0;
         padding: 0;
@@ -238,30 +173,39 @@ transform:translate(-50%,-50%);
 </head>
 
 <body>
-        <header>
-            <div id="video">
-                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/FZkh6_n1Aoc?autoplay=1&mute=1&playlist=FZkh6_n1Aoc&loop=1&controls=0" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+    <header class="main-header clearfix" role="header">
+        <div class="logo">
+          <img src="images/logo.png" alt="" style="width: 180px;">
+        </div>
+        <a href="#menu" class="menu-link"><i class="fa fa-bars"></i></a>
+        <nav id="menu" class="main-nav" role="navigation">
+          <ul class="main-menu">
+            <li><a href="index.html" class="external">Home</a></li>
+            <li><a href="360degree.html"target="_blank" class="external">360*</a>  </li>
+            <li><a href="purchase.html" class="external">purchase</a></li>
+            <li><a href="fff.html" class="external">Charter</a></li>
+            <li><a href="headCont.html" class="external">Contact</a></li>
+            <a href="https://www.luna-catamarans.com/" class="btn btn-info external ml-5 ml-md-0 pl-5 pl-md-2 text-white" style="background-color: rgba(22,34,57,0.95);" target="_blank">VISIT OUR BOATYARD</a>
+          </ul>
+        </nav>
+      </header>
+      <section class="section main-banner" id="top" data-section="section1">
+        <video autoplay ~muted loop id="bg-video">
+            <source src="lunavideo.mp4" type="video/mp4" />
+        </video>
+  
+        <div class="video-overlay header-text">
+            <div class="caption">
+                
+                <h2><em>LUNA</em> CATAMARANS</h2>
+                <div class="main-button">
+                    <div class="scroll-to-section"><a href="#gallery">Discover more</a></div>
+                </div>
             </div>
-            <div class="nav-area">
-                <div class="logo"><img src="images/logo.png" style="width: 180px;"></div>
-                <ul class="menu-area">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="purchase.html">Purchase</a></li>
-                    <li><a href="360degree.html" target="_blank">360*</a></li>
-                    <li><a href="fff.html">Charter</a></li>
-                    <li><a href="headCont.html">Contact</a></li>
-                    <li><button class="btn btn-danger"><a href="https://www.luna-catamarans.com/" target="_blank">VISIT OUR BOATYARDs</a></button></li>
-                </ul>
-            </div>
-            <div class="banner-text">
-                <h2>Luna Catamarans</h2>
-                <p>we are here to help you 24*7</p>
-                <a href="headCont.html" class="btn" id="btn-2"target="_blank">Contact us</a>
-            </div>
-        </header>
-   
-        <center><h1 class="mt-5"></h1></center>
-        <div class="about" id="about">
+        </div>
+    </section>
+       
+        <div class="about mt-5" id="about">
            <div class="container">
                <div class="wthree_title_agile two">
                    <h3>BUILDING <span>CATAMARANS</span></h3>
@@ -408,7 +352,7 @@ transform:translate(-50%,-50%);
 
    
     <!--gallery  -->
-    <section class="gallery py-md-5 py-3">
+    <section class="gallery py-md-5 py-3" id="gallery">
         <div class="gallery-inner pb-md-5 pb-3">
             <h3 class="tittle text-center mb-md-5 mb-4">Gallery</h3>
             <ul class="portfolio-categ filter pb-5 mb-lg-3 text-center">
@@ -859,7 +803,67 @@ transform:translate(-50%,-50%);
     <script src="js/pretty-script.js"></script>
     <script src="js/jquery.prettyPhoto.js"></script>
     <!-- //jQuery-Photo-filter-lightbox-Gallery-plugin -->
+<!--new Folder-->
+<script src="new/vendor/jquery/jquery.min.js"></script>
+    <script src="new/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
+    <script src="new/assets/js/isotope.min.js"></script>
+    <script src="new/assets/js/owl-carousel.js"></script>
+    <script src="new/assets/js/lightbox.js"></script>
+    <script src="new/assets/js/tabs.js"></script>
+    <script src="new/assets/js/video.js"></script>
+    <script src="new/assets/js/slick-slider.js"></script>
+    <script src="new/assets/js/custom.js"></script>
+    <script>
+        //according to loftblog tut
+        $('.nav li:first').addClass('active');
+
+        var showSection = function showSection(section, isAnimate) {
+          var
+          direction = section.replace(/#/, ''),
+          reqSection = $('.section').filter('[data-section="' + direction + '"]'),
+          reqSectionPos = reqSection.offset().top - 0;
+
+          if (isAnimate) {
+            $('body, html').animate({
+              scrollTop: reqSectionPos },
+            800);
+          } else {
+            $('body, html').scrollTop(reqSectionPos);
+          }
+
+        };
+
+        var checkSection = function checkSection() {
+          $('.section').each(function () {
+            var
+            $this = $(this),
+            topEdge = $this.offset().top - 80,
+            bottomEdge = topEdge + $this.height(),
+            wScroll = $(window).scrollTop();
+            if (topEdge < wScroll && bottomEdge > wScroll) {
+              var
+              currentId = $this.data('section'),
+              reqLink = $('a').filter('[href*=\\#' + currentId + ']');
+              reqLink.closest('li').addClass('active').
+              siblings().removeClass('active');
+            }
+          });
+        };
+
+        $('.main-menu, .scroll-to-section').on('click', 'a', function (e) {
+          if($(e.target).hasClass('external')) {
+            return;
+          }
+          e.preventDefault();
+          $('#menu').removeClass('active');
+          showSection($(this).attr('href'), true);
+        });
+
+        $(window).scroll(function () {
+          checkSection();
+        });
+    </script>
 </body>
 
 </html>
