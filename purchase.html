@@ -236,7 +236,7 @@ bottom:0;
                         </a>
                         </h1>
                     </div>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" onclick="show()">
                         <span class="navbar-toggler-icon">
                           
                         </span>
@@ -266,7 +266,7 @@ bottom:0;
                                 <a class="nav-link" href="price.html">Team</a>
                             </li> -->
                             <li class="nav-item">
-                                <a class="nav-link " href="fff.html">Charter</a>
+                                <a class="nav-link " href="charter.html">Charter</a>
                                
                             </li>
                             <!-- <li class="nav-item">
@@ -279,7 +279,7 @@ bottom:0;
                         </ul>
 
                         <div class="log-in">
-                          <li><button class="btn "><a href="https://www.luna-catamarans.com/" target="_blank">Visit Luna Catamarans</a></button></li>
+                          <li><button class="btn "><a href="https://www.luna-catamarans.com/" target="_blank">VISIT OUR BOATYARD</a></button></li>
                         </div>
                     </div>
 
@@ -449,6 +449,17 @@ bottom:0;
         
             </section>
           </footer>
-
+          <script>
+            function show(){
+              var x = document.getElementById("navbarSupportedContent");
+              if (x.style.display === "none") {
+                x.style.display = "block";
+              } else {
+                x.style.display = "none";
+              }
+            }
+        
+            
+          </script>
     </div>
     </body>

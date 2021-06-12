@@ -169,37 +169,59 @@
 	width: 100%;
 	height: 100%;
 }
+@media only screen and (max-width: 768px) {
+  /* For desktop: */
+  .abc{
+      width: 130px;
+      margin-bottom: 5px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .abc{
+      width: 150px;
+  }
+}
+@media screen and (max-width: 900px) and (min-width: 600px) {
+  .demo {
+   margin-left: 10px;
+  }
+}
+
     </style>
 </head>
 
 <body>
     <header class="main-header clearfix" role="header">
-        <div class="logo">
-          <img src="images/logo.png" alt="" style="width: 180px;">
+        <div class="container-fluid">
+            <div class="logo">
+                <img src="images/logo.png" class="abc"alt="" >
+              </div>
+              <a href="#menu" class="menu-link"><i class="fa fa-bars"></i></a>
+              <nav id="menu" class="main-nav" role="navigation">
+                <ul class="main-menu mt-3">
+                  <li><a href="index.html" class="external">Home</a></li>
+                  <li><a href="360degree.html"target="_blank" class="external">360*</a>  </li>
+                  <li><a href="purchase.html" class="external">purchase</a></li>
+                  <li><a href="charter.html" class="external">Charter</a></li>
+                  <li><a href="headCont.html" class="external">Contact</a></li>
+                  <a href="https://www.luna-catamarans.com/" class="btn btn-info external ml-5 ml-md-0 pl-5 pl-md-2 text-white demo" style="background-color: rgba(22,34,57,0.95);" target="_blank">VISIT OUR BOATYARD</a>
+                </ul>
+              </nav>
         </div>
-        <a href="#menu" class="menu-link"><i class="fa fa-bars"></i></a>
-        <nav id="menu" class="main-nav" role="navigation">
-          <ul class="main-menu">
-            <li><a href="index.html" class="external">Home</a></li>
-            <li><a href="360degree.html"target="_blank" class="external">360*</a>  </li>
-            <li><a href="purchase.html" class="external">purchase</a></li>
-            <li><a href="fff.html" class="external">Charter</a></li>
-            <li><a href="headCont.html" class="external">Contact</a></li>
-            <a href="https://www.luna-catamarans.com/" class="btn btn-info external ml-5 ml-md-0 pl-5 pl-md-2 text-white" style="background-color: rgba(22,34,57,0.95);" target="_blank">VISIT OUR BOATYARD</a>
-          </ul>
-        </nav>
+        
       </header>
       <section class="section main-banner" id="top" data-section="section1">
-        <video autoplay ~muted loop id="bg-video">
+        <video autoplay muted loop id="bg-video">
             <source src="lunavideo.mp4" type="video/mp4" />
         </video>
   
         <div class="video-overlay header-text">
             <div class="caption">
                 
-                <h2><em>LUNA</em> CATAMARANS</h2>
+                <h2><em>LUNA CATAMARANS</em> </h2>
                 <div class="main-button">
-                    <div class="scroll-to-section"><a href="#gallery">Discover more</a></div>
+                    <div class="scroll-to-section"><a href="gallery">Discover more</a></div>
                 </div>
             </div>
         </div>

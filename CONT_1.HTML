@@ -199,10 +199,10 @@
                                     </div>
                                     <div class="col-md-6 top-social-icons p-0">
                                         <ul class="social-icons d-flex justify-content-end">
-                                            <li class="mr-1"><a href="#"><span class="fab fa-facebook-f"></span></a></li>
+                                            <!-- <li class="mr-1"><a href="#"><span class="fab fa-facebook-f"></span></a></li>
                                             <li class="mx-1"><a href="#"><span class="fab fa-twitter"></span></a></li>
                                             <li class="mx-1"><a href="#"><span class="fab fa-google-plus-g"></span></a></li>
-                                            <li class="mx-1"><a href="#"><span class="fab fa-linkedin-in"></span></a></li>
+                                            <li class="mx-1"><a href="#"><span class="fab fa-linkedin-in"></span></a></li> -->
                                         </ul>
                                     </div>
                                 </div>
@@ -218,7 +218,7 @@
                             </a>
                             </h1>
                         </div>
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" onclick="show()">
                             <span class="navbar-toggler-icon">
                               
                             </span>
@@ -227,9 +227,9 @@
 
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav ml-lg-auto text-right">
-                                <li class="nav-item active">
+                                <li class="nav-item ">
                                     <a class="nav-link" href="index.html">Home
-                                        <span class="sr-only">(current)</span>
+                                      
                                     </a>
                                 </li>
                                 <!-- <li class="nav-item">
@@ -248,20 +248,20 @@
                                     <a class="nav-link" href="price.html">Team</a>
                                 </li> -->
                                 <li class="nav-item">
-                                    <a class="nav-link" href="fff.html">Charter</a>
+                                    <a class="nav-link" href="charter.html">Charter</a>
                                 </li>
                                 <!-- <li class="nav-item">
                                     <a class="nav-link" href="price.html">Management</a>
                                 </li> -->
-                                <li class="nav-item">
-                                    <a class="nav-link" href="headCont.html">Contact</a>
+                                <li class="nav-item active ">
+                                    <a class="nav-link active" href="headCont.html">Contact</a>
+                                   
                                 </li>
 
                             </ul>
 
-                            <div class="log-in">
-                                <a class="btn text-uppercase" href="#" data-toggle="modal" data-target="#exampleModalCenter">
-                                    Sign In</a>
+                             <div class="log-in">
+                                <li><button class="btn "><a href="https://www.luna-catamarans.com/" target="_blank">VISIT OUR BOATYARD</a></button></li>
                             </div>
                         </div>
 
@@ -301,9 +301,9 @@
         </div>
         <div class="address">
           <h5>Email:</h5>
-          <p><span class="fa fa-envelope"></span> <a href="info@localhost">
-info@localhost</a></p>
-          <p><span class="fa fa-globe"></span> <a href="mailto:website@example.com">website@example.com</a></p>
+          <p><span class="fa fa-envelope"></span> <a href="lunacharters@luna-catamarans.com">
+lunacharters@luna-catamarans.com</a></p>
+          CINT
         </div>
       </div>
     </div>
@@ -354,7 +354,7 @@ info@localhost</a></p>
                    </div></p>
                   <div class="columns-2">
                     <ul class="social">
-                      <li><a href="#facebook"><span class="fa fa-facebook" aria-hidden="true"></span></a>
+                      <!-- <li><a href="#facebook"><span class="fa fa-facebook" aria-hidden="true"></span></a>
                       </li>
                       <li><a href="#linkedin"><span class="fa fa-linkedin" aria-hidden="true"></span></a>
                       </li>
@@ -363,7 +363,7 @@ info@localhost</a></p>
                       <li><a href="#google"><span class="fa fa-google-plus" aria-hidden="true"></span></a>
                       </li>
                       <li><a href="#github"><span class="fa fa-youtube" aria-hidden="true"></span></a>
-                      </li>
+                      </li> -->
                     </ul>
                   </div>
                 </div>
@@ -376,9 +376,9 @@ info@localhost</a></p>
                       </li>
                       <li><a href="headCont.html"><span class="fa fa-angle-double-right mr-2"></span> contact us</a>
                       </li>
-                      <li><a href="#"><span class="fa fa-angle-double-right mr-2"></span> Youtube</a>
+                      <li><a href="https://www.youtube.com/watch?v=FZkh6_n1Aoc"><span class="fa fa-angle-double-right mr-2"></span> Youtube</a>
                       </li>
-                      <li><a href="#"><span class="fa fa-angle-double-right mr-2"></span>Facebook</a>
+                      <li><a href="https://www.facebook.com/LunaCatamarans/"><span class="fa fa-angle-double-right mr-2"></span>Facebook</a>
                       </li>
                     </ul>
                    </div>
@@ -424,3 +424,15 @@ info@localhost</a></p>
 
     </section>
   </footer>
+  <script>
+    function show(){
+      var x = document.getElementById("navbarSupportedContent");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
+
+    
+  </script>

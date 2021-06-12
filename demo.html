@@ -1,21 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
 <style>
-	* {padding:0;margin:0;box-sizing:border-box;}
-#video {
-	position: relative;
-	padding-bottom: 56.25%; /* 16:9 */
-	height: 0;
-}
-#video iframe {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
+.flex-container {
+  display: flex;
+  background-color: DodgerBlue;
 }
 
-
+.flex-container > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
 </style>
+</head>
+<body>
 
-	<div id="video">
-		<iframe width="100%" height="100%" src="https://www.youtube.com/embed/OycYHUdAWfQ?autoplay=1&mute=1&playlist=OycYHUdAWfQ&loop=1" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
-	</div>
+<div class="flex-container">
+  <div>1</div>
+  <div>2</div>
+  <div>3</div>  
+</div>
+
+<p>A Flexible Layout must have a parent element with the <em>display</em> property set to <em>flex</em>.</p>
+
+<p>Direct child elements(s) of the flexible container automatically becomes flexible items.</p>
+
+</body>
+</html>

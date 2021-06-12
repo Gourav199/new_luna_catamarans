@@ -218,7 +218,7 @@
                             </a>
                             </h1>
                         </div>
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" onclick="show()">
                             <span class="navbar-toggler-icon">
                               
                             </span>
@@ -248,7 +248,7 @@
                                     <a class="nav-link" href="price.html">Team</a>
                                 </li> -->
                                 <li class="nav-item">
-                                    <a class="nav-link" href="fff.html">Charter</a>
+                                    <a class="nav-link" href="charter.html">Charter</a>
                                 </li>
                                 <!-- <li class="nav-item">
                                     <a class="nav-link" href="price.html">Management</a>
@@ -260,9 +260,8 @@
 
                             </ul>
 
-                            <div class="log-in">
-                                <a class="btn text-uppercase" href="#" data-toggle="modal" data-target="#exampleModalCenter">
-                                    Sign In</a>
+                             <div class="log-in">
+                                <li><button class="btn "><a href="https://www.luna-catamarans.com/" target="_blank">VISIT OUR BOATYARD</a></button></li>
                             </div>
                         </div>
 
@@ -302,9 +301,9 @@
         </div>
         <div class="address">
           <h5>Email:</h5>
-          <p><span class="fa fa-envelope"></span> <a href="info@localhost">
-info@localhost</a></p>
-          <p><span class="fa fa-globe"></span> <a href="mailto:website@example.com">website@example.com</a></p>
+          <p><span class="fa fa-envelope"></span> <a href="lunacharters@luna-catamarans.com">
+lunacharters@luna-catamarans.com</a></p>
+          CINT
         </div>
       </div>
     </div>
@@ -425,3 +424,15 @@ info@localhost</a></p>
 
     </section>
   </footer>
+  <script>
+    function show(){
+      var x = document.getElementById("navbarSupportedContent");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
+
+    
+  </script>
